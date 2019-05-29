@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+image_angle = dir
 if !ds_queue_empty(ds_queue_movement)
 {	
 	target_wire_id = ds_queue_head(ds_queue_movement)
