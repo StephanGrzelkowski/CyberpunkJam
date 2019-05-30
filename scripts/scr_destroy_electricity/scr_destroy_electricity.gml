@@ -1,6 +1,6 @@
 ///
 
 show_debug_message("Destroyed electricity")
-global.bol_in_grid = 0
+obj_controller.alarm[0] = obj_controller.delay_movement_allowed
 ds_queue_empty(ds_queue_movement)
 instance_destroy(self)

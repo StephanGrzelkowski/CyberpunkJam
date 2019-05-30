@@ -24,22 +24,48 @@ if !global.bol_in_grid
 	}
 
 	var moving = (point_distance(0, 0, movedir_x, movedir_y) > 0) 
-
+	direction = point_direction(0,0,movedir_x, movedir_y)
 	if moving 
 	{
 		x_target = x + movedir_x
 		y_target = y + movedir_y
-		if (tilemap_get_at_pixel(collision_layer, x_target, y) = 0)
+		if (tilemap_get_at_pixel(collision_layer, x_target + 6 * sign(movedir_x) + sign(movedir_x), y) = 0)
 		{
 			x = x_target		
 		}
-		if (tilemap_get_at_pixel(collision_layer, x, y_target) = 0)
+		if (tilemap_get_at_pixel(collision_layer, x, y_target + 11 * sign(movedir_y) + sign(movedir_y)) = 0)
 		{
 			y = y_target	
 		}
-	
-	}
+		
+		if direction <= 45 or direction > 315
+		{
+			sprite_index = spr_player_right	
+		}
 
+
+		if direction > 45 and direction <= 135
+		{
+			sprite_index = spr_player_up
+		}
+
+		if direction > 135 and direction <= 225
+		{
+			sprite_index = spr_player_left
+		}
+
+		if direction > 225 and direction <= 315
+		{
+			sprite_index = spr_player_down
+		}
+
+		image_speed = animation_speed
+	}
+	else
+	{
+		image_speed = 0
+		image_index = 0	
+	}
 
 	if keyboard_check_pressed(vk_space)
 	{

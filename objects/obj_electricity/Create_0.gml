@@ -6,10 +6,10 @@ spd = 5
 current_grid_x = x / 32
 current_grid_y = y / 32
 
-time_goodwill = 0.1 * room_speed
+time_goodwill = 0.08 * room_speed
 
 max_angle_back = 92
-max_distance_check = 20
+max_distance_check = 25
 
 bol_reversed_dir = 0
 
