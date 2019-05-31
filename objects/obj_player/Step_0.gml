@@ -67,14 +67,17 @@ if !global.bol_in_grid
 		image_index = 0	
 	}
 
-	if keyboard_check_pressed(vk_space)
+	if keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("E"))
 	{
+		
 		id_closest_socket = instance_nearest(x, y, obj_socket)
 		dist_to_socket = point_distance(x,y,id_closest_socket.x, id_closest_socket.y)
-		if dist_to_socket < max_dist_socket
+		if place_meeting(x,y,id_closest_socket)
 		{
+			audio_play_sound(sfx_grid, 100, 1)
 			scr_switch_to_grid(id_closest_socket)	
+			global.bol_in_grid = 1
 		}
-		global.bol_in_grid = 1
+		
 	}
 }

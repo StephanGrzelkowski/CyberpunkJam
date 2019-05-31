@@ -222,6 +222,7 @@ bol_reversed_dir = 0
 //when you reach your current destination
 if (x == target_x) & (y == target_y)
 {
+	scr_emit_lightning()
 	ds_queue_dequeue(ds_queue_movement)
 	new_grid_val = scr_check_grid_dir(target_wire_id, dir)	
 	
@@ -232,8 +233,7 @@ if (x == target_x) & (y == target_y)
 		if new_grid_val == 3
 		{
 			instance_create_depth(new_target_x, new_target_y, 1, obj_shock)
-			global.bol_in_grid = 0 
-			instance_destroy(self)
+			scr_destroy_electricity()
 		}
 		
 		new_target_wire_id = instance_nearest(new_target_x, new_target_y, obj_wire)
