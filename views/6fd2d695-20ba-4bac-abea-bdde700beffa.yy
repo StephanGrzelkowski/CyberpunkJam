@@ -13,7 +13,10 @@
         "3c1f2309-76aa-4f4d-9065-c92771205cea",
         "9d069fad-a8e9-42cd-a942-727ed417a2c3",
         "430670a9-2d03-4656-9ffa-9bac357d3029",
-        "ba615b34-4157-4e89-b770-5fffd5717d37"
+        "ba615b34-4157-4e89-b770-5fffd5717d37",
+        "d7e8df93-2840-411a-a953-3d19b50c753a",
+        "40a85e86-8fbd-4e9c-8d1e-87ae7ff86024",
+        "26389e0e-45d9-4382-b60c-111a54b4dff8"
     ],
     "filterType": "GMPath",
     "folderName": "paths",

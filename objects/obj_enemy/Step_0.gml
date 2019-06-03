@@ -34,8 +34,8 @@ while !hit_something
 	}
 }
 
-
 path_speed = spd
+
 if direction <= 45 or direction > 315
 {
 	sprite_index = spr_enemy_right	

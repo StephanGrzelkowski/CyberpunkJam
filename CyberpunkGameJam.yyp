@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "26389e0e-45d9-4382-b60c-111a54b4dff8",
+            "Value": {
+                "id": "c4ebf058-9f5e-4bc6-8ae1-6c70152aa14b",
+                "resourcePath": "paths\\path12\\path12.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "2735a734-cfc7-4fe6-a402-e89a94f283e1",
             "Value": {
                 "id": "44711d7f-4cd4-4cae-9d1d-a8e766212a9b",
@@ -292,6 +300,14 @@
                 "id": "eadfab67-1ed8-48b4-844f-7140547b9879",
                 "resourcePath": "views\\4026ce5d-33d0-49ab-b8d9-55b0e36586e3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "40a85e86-8fbd-4e9c-8d1e-87ae7ff86024",
+            "Value": {
+                "id": "5ab168c4-0dfe-4019-a345-551c330acfbd",
+                "resourcePath": "paths\\path_level9_patrol3\\path_level9_patrol3.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -655,6 +671,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "abee4e21-afe9-445c-8444-cef82f80fa9f",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "ab77f247-934f-43e8-8a79-06d754e55837",
             "Value": {
                 "id": "177cf13a-7e13-4cdb-8b94-9267eeea9845",
@@ -831,6 +855,14 @@
             }
         },
         {
+            "Key": "d7e8df93-2840-411a-a953-3d19b50c753a",
+            "Value": {
+                "id": "9a5330ca-b4fe-4325-8f75-1e906af6b28c",
+                "resourcePath": "paths\\path_level9_patrol2\\path_level9_patrol2.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "d9628654-b9bd-4d53-b12b-20cf4db421ad",
             "Value": {
                 "id": "3f8f2b4a-b9ee-4ce6-92f9-f79f6f486f79",
@@ -908,6 +940,14 @@
                 "id": "68b42c86-aa27-4416-bf40-ac309d32189b",
                 "resourcePath": "sprites\\spr_wire_connection\\spr_wire_connection.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "ec8ecfe7-27f0-40d0-bae8-3fa915f01fe9",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
